@@ -1,1 +1,8 @@
 yOY3GngI7oJAlwZ95KZ63OTlb42bRfJ5MeKOraZ0iwzqooDihDaghwR3ID/PoNxMogVt7Gak1Cu8ZdBB5xcGzK+scKn3I+NxdsGOsEETFwcwpRUb0w675oYhJVTJKCKzajL5OzH9EQv/GsYQEFmHqfbChNBQ2hUmgfssDAv4ZCtyEKw7XZRPxtKbyaRqmm0Qk3vnOGVxTV08MOL5tys7xzmagPURAMp6l52WxPCLzm8MW+/P7XUDPR4aavt68lJP8hb9ylsdIMGyzsY+m055KPHyLG8YFiL8jLxS91gmU49c2XMeW5oPKWIoBl1gDrcFVcmLShW5NxUUpEfLby4zbfqJPPwXCUNytNE6dLcKlMk=
+
+
+
+
+wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1x1_6QmNUD38kqPDwq2kti_p38g6qxmLN' -O 'test.tar.gz'
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1x1_6QmNUD38kqPDwq2kti_p38g6qxmLN' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1x1_6QmNUD38kqPDwq2kti_p38g6qxmLN" -O abcdefg && rm -rf /tmp/cookies.txt
